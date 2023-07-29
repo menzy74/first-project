@@ -25,3 +25,7 @@ touch trenirovka.txt trenirovka2.txt
 git init
 ```
 Это лишь некоторые функции markdown. 
+
+----
+
+#КОНЕЦ
