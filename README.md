@@ -31,12 +31,14 @@ git init
 HEAD -- это голова.
 Коммит -- это всему голова.
 Статусы файлов:
-<тут пустая строка!>
+<>
 
 ```mermaid
 %% описание схемы
 graph LR;
 	untracked -- "git add" --> staged;
+
+
 	staged -- "git commit -m "_mesage_"" -->tracked/commited
 ```
 ----
