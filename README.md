@@ -41,6 +41,7 @@ untracked -- "git add" --> staged;
 ```mermaid
 graph LR;
 staged -- "git commit -m _mesage_" -->tracked/commited;
+```
 ----
 
 # КОНЕЦ
