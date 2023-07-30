@@ -37,8 +37,10 @@ HEAD -- это голова.
 %% описание схемы
 graph LR;
 untracked -- "git add" --> staged;
-staged -- "git commit -m "_mesage_"" -->tracked/commited;
 ```
+```mermaid
+graph LR;
+staged -- "git commit -m _mesage_" -->tracked/commited;
 ----
 
 # КОНЕЦ
